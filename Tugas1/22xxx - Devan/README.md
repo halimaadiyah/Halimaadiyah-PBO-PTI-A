@@ -8,19 +8,12 @@ NIM  : 22xxxxxx
 
 ### Template utk opsi tugas 1
 Opsi Tugas : 1        
-Aplikasi / Webapp / Game yang ditiru : Game A     
-Fitur yang ditiru : fitur A     
+Aplikasi / Webapp / Game yang ditiru : Aplikasi   
+Fitur yang ditiru : Membuat program absensi mahasiswa   
 
-### Template utk opsi tugas 2
-Opsi Tugas : 2            
-Sistem Informasi yang ditiru : SIAM              
-Fitur yang ditiru :                   
-1. fitur A
-2. fitur B
-3. fitur C 
-4. dst
+
 
 ## 🔗 Link Penjelasan Tugas
+https://youtu.be/0S4mhC6vCg0?si=xpbgEyt3GTzNft8o
 
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
