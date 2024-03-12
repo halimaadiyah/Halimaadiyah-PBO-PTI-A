@@ -1,10 +1,19 @@
-package Tugas2.235150601111003 - Hallima.Analilis Percobaan;
-
 public class Mobil {
        private String noPlat;
         private String warna;
         private String manufaktur;
         private int kecepatan;
+        private double waktu;
+
+        public void setWaktu(double waktu){
+              rubahSekon(waktu);
+        }
+       
+        private void rubahSekon(double waktu){
+              this.waktu = waktu * 3600;
+        }
+
+
         public void setNoPlat(String s){
         noPlat = s;
         }
@@ -16,6 +25,11 @@ public class Mobil {
         }
         public void setKecepatan(int i){
         kecepatan = i;
+        }
+
+        private double rubahKecepatan(int kecepatan){
+              double rubahKecepatan = (double)kecepatan;
+              return rubahKecepatan = (rubahKecepatan*10)/36;
         }
 
         public void displayMessage(){
