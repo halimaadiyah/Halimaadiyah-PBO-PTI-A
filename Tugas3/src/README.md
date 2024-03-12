@@ -1,18 +1,20 @@
 # 📁 Tugas 3 : Class Diagram
 
 ## 👤 Identitas Intern
-Nama : Devan             
-NIM  : 22xxxxxx
+Nama : Khalimatus Sa'diyah            
+NIM  : 235150601111003
 
 ## 📤 Submission
 
-Tema yang dipilih : 
+Tema yang dipilih : Makhluk Hidup
 Class Diagram yang dibuat : 
-1. Class Diagram 1
-2. Class Diagram 2
+1. Class Diagram Manusia
+2. Class Diagram Ayam
+3. Class Diagram Pohon
 dst
 
 ## 🔗 Link Penjelasan Tugas
 
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
+https://youtu.be/Rlv-3Mter9o
+
 
