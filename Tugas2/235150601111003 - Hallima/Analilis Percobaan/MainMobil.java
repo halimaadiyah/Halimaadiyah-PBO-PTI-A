@@ -5,9 +5,11 @@ public class MainMobil {
 
         Scanner input = new Scanner(System.in);
 
+        // instan objek bernama m1
+        // jawaban nomor 3
         Mobil m3 = new Mobil();
         System.out.println("Masukkan kecepatan mobilnya : ");
-        m3.setKecepatan(input.nextLine());
+        m3.setKecepatan(input.nextInt());
         input.nextLine();
         System.out.println("Masukkan manufaktur mobilnya : ");
         m3.setManufaktur(input.nextLine());

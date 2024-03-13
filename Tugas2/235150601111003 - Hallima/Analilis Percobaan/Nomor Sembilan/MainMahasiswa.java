@@ -5,7 +5,7 @@ public class MainMahasiswa {
         // Mahasiswa mahasiswaA = new Mahasiswa("Mahasiswa A", 100);
         // NoteBook notebook = new NoteBook(50, 200);
 
-        int hari = notebook.hitungHariUntukMengisiNotebook(mahasiswaA);
+        int hari = BukuCatatan.hitungHariUntukMengisiNotebook(mahasiswaA);
         System.out.println("Mahasiswa  akan mengisi buku dalam " + hari + " hari.");
     }
 }
