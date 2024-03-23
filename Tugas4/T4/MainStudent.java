@@ -5,27 +5,30 @@ import java.util.Scanner;
 public class MainStudent {
     public static void main(String[] args) {
 
-    // no 4. membuat array
-    Scanner scanner = new Scanner(System.in);
-    System.out.println("Masukkan Jumlah Peserta Didik");
-    int urutanAbsensiMahasiswa = scanner.nextInt();
+    // a jawaban no 4. membuat array
+    Scanner input = new Scanner(System.in);
+    System.out.print("Masukkan Jumlah Peserta Didik ");
+    int urutanAbsensiMahasiswa = input.nextInt();
+    Student [] Mahasiswa = new Student [urutanAbsensiMahasiswa];
 
     for (int i = 0; i < urutanAbsensiMahasiswa; i++){
-        System.out.println(" Masukkan data Peserta didik ke-" + (1+1));
+        Mahasiswa[i] = new Student();
+        System.out.println("Masukkan data Peserta didik ke- " + (1+1));
         System.out.print("Nama: ");
-        String name =scanner.next();
+        String name = input.next();
         System.out.print("Alamat: ");
-        String address = scanner.next();
+        String address = input.next();
         System.out.print("Umur: ");
-        int age = scanner.nextInt();
+        int age = input.nextInt();
         System.out.print("Nilai Matematika: ");
-        double mathGrade = scanner.nextDouble();
+        double mathGrade = input .nextDouble();
         System.out.print("Nilai IPA: ");
-        double scienceGrade = scanner.nextDouble();
-        System.out.println("Nilai Bahasa Inggris: ");
-        double englishGrade = scanner.nextDouble();
+        double scienceGrade = input.nextDouble();
+        System.out.print("Nilai Bahasa Inggris: ");
+        double englishGrade = input.nextDouble();
     }
 
+    System.out.println("===================");
     Student anna = new Student();
     anna.setName("Anna");
     anna.setAddress("Malang");

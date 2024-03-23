@@ -56,12 +56,12 @@ public class Student {
      return result;
      }
 
-    //   nomor 5
-     public static void totalObjek (){
-        System.out.println("Total Objek : " + keseluruhanObjek);
+    //   a. jawaban nomor 5
+     public static void jumlahObjek (){
+        System.out.println("Jumlah Objek : " + keseluruhanObjek);
      }
 
-     // nomor 2 (konstruktor)
+     // a. jawaban nomor 2 (konstruktor)
      public Student(String name, String address, int age, double mathGrade, double englishGrade, double scienceGrade, double average){
         this.name = name;
         this.address = address;
@@ -73,7 +73,7 @@ public class Student {
         keseluruhanObjek++;
      }
 
-    //  nomor 3
+    //  a. jawaban nomor 3
     public boolean statusAkhir(){
         double averagePoint = (mathGrade + englishGrade + scienceGrade ) /3;
         if(averagePoint >= 61){
@@ -93,9 +93,9 @@ public class Student {
 
     //  lanjutan no3 melakukan implementasian
     if (statusAkhir()){
-        System.out.println(name + "Selamat nilai anda memenuhi passing graded");
+        System.out.println(name + " Selamat nilai anda memenuhi passing graded");
     }else{
-        System.out.println(name + "Nice try, Anda di haruskan untuk mengikuti remedial");
+        System.out.println(name + " Nice try, Anda di haruskan untuk mengikuti remedial");
     }
 
     }
