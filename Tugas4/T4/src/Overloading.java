@@ -8,13 +8,21 @@ public class Overloading {
         System.out.println("maka hasil luas : "+nilai);
     }
 
-    public static double HitungLuas(double value, double value2){
+    // public static double HitungLuas(double value, double value2){
+    //     double nilai = value* value2;
+    //     return nilai;
+    // }
+
+
+    // Jawaban nomor 3
+    public static void HitungLuas(double value, double value2){
         double nilai = value* value2;
-        return nilai;
+        System.out.println(" Maka Hasil Luasnya : " +nilai);
     }
 
     // implementasian nomer 02 | yang terjadi yakni di dapati eror sebab konstruktor sebeumnya 
     // sudah memakai parameter tersebut jadi wajib hukumnya menggunakan para meter yang berbeda
+    
     // public static double HitungLuas(int a, int b){
     //     double nilai = value* value2;
     //     return nilai;
@@ -31,8 +39,11 @@ public class Overloading {
         double double1 = in.nextDouble();
         System.out.print("masukkan nilai double 2 : ");
         double double2 = in.nextDouble();
-        HitungLuas(integer1, integer2);
-        System.out.println ("Maka hasil luas : + HitungLuas (double1, double2)"); 
+        HitungLuas(double1, double2);
+
+        // implementasi jawaban nomor 3
+        HitungLuas(double1, double2);
+        System.out.print ("Maka hasil luas : + HitungLuas (double1, double2)"); 
     }
 
 }

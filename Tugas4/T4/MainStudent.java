@@ -66,6 +66,6 @@ public class MainStudent {
     carla.setScience(98);
     carla.setEnglish(99);
     carla.displayMessage();
-    Student.totalObjek();
+    Student.jumlahObjek();
     }
 }
