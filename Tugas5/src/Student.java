@@ -18,7 +18,7 @@ public class Student {
     }
 
 
-    // tetap berfungsi, disebabkan tidak terdapat adanya erorr
+    // no 04. tetap berfungsi, disebabkan tidak terdapat adanya erorr
     // public static void main(String[] args) {
     //     Student s1=new Student();
     //         s1.setName("Enkapsulasi");
