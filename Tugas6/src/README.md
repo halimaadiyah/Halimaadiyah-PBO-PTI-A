@@ -1,10 +1,10 @@
 # 📁 Tugas 6 : Inheritance
 
 ## 👤 Identitas Intern
-Nama : Devan             
-NIM  : 22xxxxxx
+Nama : Khalimatus Sa'diyah           
+NIM  : 235150601111003
 
 ## 🔗 Link Penjelasan Tugas
 
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
+https://youtu.be/00NVX7Jq97Q
 
